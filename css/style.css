@@ -552,7 +552,7 @@ ul.list li a{
 	margin: 0 0 0 20px;
 	padding: 18px 22px 20px;
 	box-sizing: border-box;
-	background: #5a3e2b;
+	background: url(./images/article1.png) no-repeat center top;
 	background-size: 100% 100%;
 	border-radius: 20px;
 	color: #ffffff;
@@ -594,7 +594,6 @@ ul.list li a{
 .acticle ul li::marker{
 	color: #ff6c00;
 }
-
 /*-------------------------------- footer's  block-------------------------------- */
 #foot2{
 	background: url(../images/bg_foot2.jpg) left top repeat-y;
