@@ -546,16 +546,23 @@ ul.list li a{
 
 /*-------------------------------- article block-------------------------------- */
 .acticle{
-	width: 420px;
-	min-height: 420px;
+	width: 380px;
+	height: 380px;              /* MUST match width for perfect circle */
 	float: right;
-	margin: 0;
-	padding: 18px 22px 20px;
+	margin: 0 0 0 20px;
+	padding: 40px 30px;         /* inner spacing */
 	box-sizing: border-box;
-	background: url(../images/article1.png) left top no-repeat;
-	background-size: 100% 100%;
-	border-radius: 20px;
+
+	background: #7F7F7F;        /* your gray */
+	border-radius: 50%;         /* THIS makes it a circle */
+
 	color: #ffffff;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;    /* center vertically */
+	align-items: center;        /* center horizontally */
+	text-align: center;
 }
 
 #arti1{
