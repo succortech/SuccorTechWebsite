@@ -872,7 +872,7 @@ body.sub_body{
 }
 .min_height.solutions{
 	background:#fff url(../images/78292494.jpg) left top no-repeat;
-	height:380px;
+	height:auto;
 	width:980px;
 	padding: 0;
 }
