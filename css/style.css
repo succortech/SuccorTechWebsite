@@ -559,7 +559,7 @@ ul.list li a{
 }
 
 #arti1{
-	background: url(./images/cc.png) no-repeat left top;
+	background: url(./images/cc.png) left top no-repeat;
 	height: auto;
 	margin: 0 0 12px 0;
 	padding: 0 0 0 24px;
