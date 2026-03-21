@@ -864,13 +864,14 @@ body.sub_body{
 	height:350px;
 }
 .min_height.services{
-	background:#fff url('../images/OurServices1.png') left top no-repeat;
+	background:#fff url('./images/OurServices1.png') Center top no-repeat;
+	background-size: contain;
 	height:380px;
-	width:980px;
+	width:680px;
 	padding: 0;
 }
 .min_height.solutions{
-	background:#fff url('/images/78292494.jpg') left top no-repeat;
+	background:#fff url(../images/78292494.jpg) left top no-repeat;
 	height:380px;
 	width:980px;
 	padding: 0;
