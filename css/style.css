@@ -499,13 +499,13 @@ a.readmore:hover{
 	font-family: "Garamond";
 	color:#3a3a3a;
 }
-.beforefooter ul, ul.list{
-	list-style-type: none;
-	padding-left: 1px;
-	margin-top: 1px;
-	float: left;
-	margin: 5px 0px 20px 0px;
-	width: 300px;
+
+.beforefooter ul, ul.list {
+	list-style: none;
+	padding-left: 0;
+	margin: 10px 0 20px 0;
+	float: none;
+	width: 100%;
 	
 }
 ul.list{
@@ -513,19 +513,19 @@ ul.list{
 	margin-right:0
 }
 
-
-.beforefooter ul:last-child{
-	list-style-type: none;
-	padding-left: 0px;
-	margin-top: 1px;
-	float: left;
-	margin: 5px 12px 0px 0px;
+.beforefooter ul:last-child {
+	padding-left: 0;
+	margin: 10px 0 20px 0;
+	float: none;
 }
-.beforefooter ul li, ul.list li{
-	background: url(../images/marker1.png) left top no-repeat;
-	padding-left: 10px;
-	height:inherit;
-	}
+.beforefooter ul li, ul.list li {
+	background: url(../images/marker1.png) left 8px no-repeat;
+	padding-left: 22px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	height: auto;
+	display: block;
+}
 ul.list li{
 	margin-bottom:5px
 }
