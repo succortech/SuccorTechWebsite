@@ -569,8 +569,8 @@ ul.list li a{
 	background: url(../images/cc.png) left top no-repeat;
 	height: auto;
 	width: auto;
-	margin: 0 0 12px 0;
-	padding: 0 0 0 0px;
+	margin: auto;
+	padding: auto;
 }
 
 #arti1 h2{
