@@ -866,7 +866,7 @@ body.sub_body{
 }
 .min_height.services{
 	background: none;
-	height: 650px;
+	height: auto;
 	width: 980px;
 	padding: 0;
 }
@@ -889,7 +889,7 @@ body.sub_body{
 }
 .min_height.contacts{
 	background:#fff url(../images/20218895.jpg) center top no-repeat;
-	height:250px;
+	height:190px;
 	width: 980px;
 }
 .subpage{
