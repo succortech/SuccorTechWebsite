@@ -866,7 +866,7 @@ body.sub_body{
 }
 .min_height.services{
 	background: none;
-	height: auto;
+	height: 400px;
 	width: 980px;
 	padding: 0;
 }
