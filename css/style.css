@@ -870,7 +870,7 @@ body.sub_body{
 	padding: 0;
 }
 .min_height.solutions{
-	background:#fff url(../images/78292494.jpg) left top no-repeat;
+	background:#fff url('/images/78292494.jpg') left top no-repeat;
 	height:380px;
 	width:980px;
 	padding: 0;
