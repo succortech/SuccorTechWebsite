@@ -893,7 +893,7 @@ body.sub_body{
 	width: 980px;
 }
 .subpage{
-	height:420px;
+	height:auto;
 	position:relative;
 	z-index:0
 }
