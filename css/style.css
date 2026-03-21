@@ -482,7 +482,7 @@ a.readmore:hover{
 
 /*-------------------------------- before footer block-------------------------------- */
 .beforefooter{
-	width: 520px;
+	width: 600px;
 	padding: 0 10px;
 	float: left;
 	box-sizing: border-box;
@@ -546,13 +546,13 @@ ul.list li a{
 
 /*-------------------------------- article block-------------------------------- */
 .acticle{
-	width: 420px;
+	width: 300px;
 	min-height: 300px;
 	float: right;
 	margin: 0;
 	padding: 18px 22px 20px;
 	box-sizing: border-box;
-	background: background: #7F7F7F;
+	background: url(../images/article1.png) left top no-repeat;
 	background-size: 100% 100%;
 	border-radius: 20px;
 	color: #ffffff;
