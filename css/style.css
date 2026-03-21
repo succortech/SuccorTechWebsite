@@ -468,7 +468,14 @@ a.readmore{
 a.readmore:hover{
 	color:#050d0f;
 }
+/----------------------------About Page-----------------------------------------------*/
 
+.about-image{
+	width: 320px;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
 
 /*-------------------------------- horiz_divider-------------------------------- */
 .horiz_divider{
