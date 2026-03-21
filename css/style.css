@@ -485,6 +485,7 @@ a.readmore:hover{
 	width: 580px;
 	padding: 0 10px;
 	float: left;
+	box-sizing: border-box;
 }
 .beforefooter h2{
 	font: 800 40px 40px;
@@ -547,14 +548,12 @@ ul.list li a{
 .acticle{
 	width: 300px;
 	height: 300px;
-	float: left;
-	background: url(../images/article1.png) left top no-repeat;
+	float: right;
 	margin: 0;
-	-webkit-border-radius: 20px; 
-	-moz-border-radius: 20px; 
-	-o-border-radius: 20px; 
+	padding: 0;
+	box-sizing: border-box;
+	background: url(../images/article1.png) left top no-repeat;
 	border-radius: 20px;
-	padding: 0px;
 }
 #arti1{
 	background: url(../images/cc.png) no-repeat ;
