@@ -547,7 +547,7 @@ ul.list li a{
 /*-------------------------------- article block-------------------------------- */
 .acticle{
 	width: 420px;
-	min-height: 420px;
+	min-height: 300px;
 	float: right;
 	margin: 0;
 	padding: 18px 22px 20px;
