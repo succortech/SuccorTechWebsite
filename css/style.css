@@ -870,24 +870,16 @@ body.sub_body{
 	width: 980px;
 	padding: 0;
 }
-
 .services-banner{
 	width: 100%;
 	height: auto;
 	display: block;
 }
-
-
 .min_height.solutions{
 	background:#fff url(../images/78292494.jpg) left top no-repeat;
 	height:380px;
 	width:980px;
 	padding: 0;
-}
-.services-banner{
-	width: 100%;
-	height: auto;
-	display: block;
 }
 .min_height.support{
 	background:#fff url(../images/14994909.jpg) center top no-repeat;
@@ -900,7 +892,6 @@ body.sub_body{
 	height:400px;
 	width: 980px;
 }
-
 .subpage{
 	height:420px;
 	position:relative;
