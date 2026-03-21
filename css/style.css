@@ -555,6 +555,7 @@ ul.list li a{
 	background: url(./images/article1.png) no-repeat center top;
 	background-size: 100% 100%;
 	border-radius: 20px;
+	color: #ffffff;
 }
 
 #arti1{
@@ -572,11 +573,9 @@ ul.list li a{
 	padding: 0;
 }
 
-.acticle p{
-	font: italic 16px/22px "Garamond";
-	color: #000000;
-	padding: 0;
-	margin: 0 0 14px 0;
+.acticle p,
+.acticle li{
+	color: #ffffff;
 }
 
 .acticle ul{
@@ -586,12 +585,10 @@ ul.list li a{
 }
 
 .acticle ul li{
-	font: normal 18px/24px "Garamond";
-	color: #ffffff;
-	margin-bottom: 10px;
 	background: none;
 	padding-left: 0;
 	height: auto;
+	margin-bottom: 10px;
 }
 
 .acticle ul li::marker{
