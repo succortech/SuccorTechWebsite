@@ -575,6 +575,18 @@ ul.list li a{
 	padding: 02px 10px 10px 10px;
 	margin: 2px 1px 2px;
 }
+.acticle ul {
+	padding-left: 20px;
+}
+
+.acticle ul li {
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+.acticle ul li::marker {
+	color: orange;
+}
 
 /*-------------------------------- footer's  block-------------------------------- */
 #foot2{
