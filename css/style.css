@@ -864,9 +864,9 @@ body.sub_body{
 	height:350px;
 }
 .min_height.services{
-	background:#fff url(../images/OurServices1.png) center top no-repeat;
-	height:500px;
-	width:600px;
+	background:#fff url(../images/OurServices1.png) left top no-repeat;
+	height:380px;
+	width:980px;
 	padding: 0;
 }
 .min_height.solutions{
