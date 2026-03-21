@@ -864,6 +864,20 @@ body.sub_body{
 	background:#fff url(../images/succortechlogo2.gif) center top no-repeat;
 	height:350px;
 }
+.min_height.services{
+	background: none;
+	height: auto;
+	width: 980px;
+	padding: 0;
+}
+
+.services-banner{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+
 .min_height.solutions{
 	background:#fff url(../images/78292494.jpg) left top no-repeat;
 	height:380px;
