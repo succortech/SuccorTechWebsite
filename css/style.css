@@ -4,6 +4,17 @@ html {
 	width:100%;
 	background: url(../images/bg_texture.jpg) #1e1e1e left top repeat-y; 
 }
+
+/*---------------------------------Silver Color---------------------------------*/
+/* light silver */
+#d9d9d9
+
+/* medium silver */
+#bfbfbf
+
+/* metallic gradient */
+linear-gradient(145deg, #e6e6e6, #bfbfbf)
+
 /*---------------------------------Font-Section---------------------------------*/
 
 @font-face {
@@ -54,6 +65,10 @@ body {
 .right {float:right!important;}
 
 .clear {clear: both;}	
+
+.hero-text p{
+	color: #d9d9d9;
+}
 
 .center{
 	margin:0 auto; 
