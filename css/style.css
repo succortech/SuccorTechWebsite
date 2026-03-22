@@ -55,11 +55,16 @@ body {
 
 .clear {clear: both;}	
 
-.center{
-	margin:0 auto; 
-	padding:0;
-	width: 980px;
+.hero-video{
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+}
 
+#videoPlayer{
+	width: 100%;
+	height: auto;
+	display: block;
 }
 a {
 	color:#e06f1b
