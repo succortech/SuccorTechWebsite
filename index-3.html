@@ -30,29 +30,6 @@
     });
   });
 </script>
-<script>
-const videos = [
-    "images/SuccorTechSolutions1.mp4",
-    "images/SuccorTechSolutions2.mp4",
-    "images/SuccorTechSolutions3.mp4",
-	"images/SuccorTechSolutions4.mp4"
-];
-
-let currentVideo = 0;
-const player = document.getElementById("videoPlayer");
-
-player.addEventListener("ended", function () {
-    currentVideo++;
-
-    if (currentVideo >= videos.length) {
-        currentVideo = 0; // loop back to first
-    }
-
-    player.src = videos[currentVideo];
-	player.load();
-    player.play();
-});
-</script>
 </head>
 <body class="sub_body">
 	<div id="top">
@@ -197,4 +174,27 @@ player.addEventListener("ended", function () {
 		</div>
 	</footer>
 </body>
+<script>
+	const videos = [
+	    "images/SuccorTechSolutions1.mp4",
+	    "images/SuccorTechSolutions2.mp4",
+	    "images/SuccorTechSolutions3.mp4",
+		"images/SuccorTechSolutions4.mp4"
+	];
+	
+	let currentVideo = 0;
+	const player = document.getElementById("videoPlayer");
+	
+	player.addEventListener("ended", function () {
+	    currentVideo++;
+	
+	    if (currentVideo >= videos.length) {
+	        currentVideo = 0; // loop back to first
+	    }
+	
+	    player.src = videos[currentVideo];
+		player.load();
+	    player.play();
+	});
+</script>
 </html>
