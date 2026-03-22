@@ -75,6 +75,23 @@ body {
 	padding:0;
 	width: 980px;
 }
+.hero-text p{
+	color: #d9d9d9;
+}
+.main-button{
+	background: #f28c28;
+	color: #ffffff;
+	border: 1px solid #bfbfbf;
+}
+.hero-text h2::after{
+	content: "";
+	display: block;
+	width: 80px;
+	height: 3px;
+	margin: 10px auto 0;
+	background: linear-gradient(to right, #f28c28, #d9d9d9);
+}
+
 .hero-video{
 	width: 100%;
 	max-width: 980px;
