@@ -30,6 +30,27 @@
     });
   });
 </script>
+<script>
+const videos = [
+    "video1.mp4",
+    "video2.mp4",
+    "video3.mp4"
+];
+
+let currentVideo = 0;
+const player = document.getElementById("videoPlayer");
+
+player.addEventListener("ended", function () {
+    currentVideo++;
+
+    if (currentVideo >= videos.length) {
+        currentVideo = 0; // loop back to first
+    }
+
+    player.src = videos[currentVideo];
+    player.play();
+});
+</script>
 </head>
 <body class="sub_body">
 	<div id="top">
@@ -89,11 +110,13 @@
 		<!-- end of navigation  -->
 	</div>
 	</div>
-	<div class="center">
-		<Video controls width="980" height="550"  autoplay muted loop>
-		<source src="images/SuccorTech Solutions.mp4">
-		</video>
+<!---------------------video player---------------------->
+<div class="hero-video">
+    <video id="videoPlayer" autoplay muted playsinline>
+        <source src="/.images/SuccorTechSolutions1.mp4" type="video/mp4">
+    </video>
 </div>
+<!---------------------video player---------------------->
 	<!-- end of flex slider block  -->
 
 	<!-- fast blog's link block   -->
